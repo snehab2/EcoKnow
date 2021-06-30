@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43B90481268CFA2600C4AD54 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B90480268CFA2600C4AD54 /* SecondViewController.swift */; };
+		43B90483268CFA3D00C4AD54 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B90482268CFA3D00C4AD54 /* ThirdViewController.swift */; };
+		43B90485268CFA5200C4AD54 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B90484268CFA5200C4AD54 /* FourthViewController.swift */; };
+		43B90487268CFA6100C4AD54 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B90486268CFA6100C4AD54 /* FifthViewController.swift */; };
 		A83A9F17268BADA8005995ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A9F16268BADA8005995ED /* AppDelegate.swift */; };
 		A83A9F19268BADA8005995ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A9F18268BADA8005995ED /* SceneDelegate.swift */; };
 		A83A9F1B268BADA8005995ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A9F1A268BADA8005995ED /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43B90480268CFA2600C4AD54 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		43B90482268CFA3D00C4AD54 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		43B90484268CFA5200C4AD54 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		43B90486268CFA6100C4AD54 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		A83A9F13268BADA8005995ED /* EcoKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83A9F16268BADA8005995ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A83A9F18268BADA8005995ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				A83A9F24268BADA8005995ED /* LaunchScreen.storyboard */,
 				A83A9F27268BADA8005995ED /* Info.plist */,
 				A83A9F1F268BADA8005995ED /* EcoKnow.xcdatamodeld */,
+				43B90480268CFA2600C4AD54 /* SecondViewController.swift */,
+				43B90482268CFA3D00C4AD54 /* ThirdViewController.swift */,
+				43B90484268CFA5200C4AD54 /* FourthViewController.swift */,
+				43B90486268CFA6100C4AD54 /* FifthViewController.swift */,
 			);
 			path = EcoKnow;
 			sourceTree = "<group>";
@@ -143,6 +155,10 @@
 				A83A9F1B268BADA8005995ED /* ViewController.swift in Sources */,
 				A83A9F17268BADA8005995ED /* AppDelegate.swift in Sources */,
 				A83A9F21268BADA8005995ED /* EcoKnow.xcdatamodeld in Sources */,
+				43B90485268CFA5200C4AD54 /* FourthViewController.swift in Sources */,
+				43B90487268CFA6100C4AD54 /* FifthViewController.swift in Sources */,
+				43B90481268CFA2600C4AD54 /* SecondViewController.swift in Sources */,
+				43B90483268CFA3D00C4AD54 /* ThirdViewController.swift in Sources */,
 				A83A9F19268BADA8005995ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
