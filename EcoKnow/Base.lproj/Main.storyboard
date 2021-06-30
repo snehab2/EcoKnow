@@ -407,6 +407,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="UQp-sK-nmN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W6q-BL-U20">
                                 <rect key="frame" x="113" y="350" width="165" height="58"/>
@@ -420,19 +423,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aBn-ZB-dk7">
-                                <rect key="frame" x="113" y="444" width="166" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Answer D">
-                                            <attributes>
-                                                <font key="NSFont" size="40" name="GillSans"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="Sqn-WB-1GC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9M-N7-drW">
                                 <rect key="frame" x="116" y="249" width="159" height="58"/>
@@ -446,12 +439,34 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerTwoTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="T5p-Ar-mUo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-yh-TCy">
+                                <rect key="frame" x="113" y="438" width="166" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Answer D">
+                                            <attributes>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerFourTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="SV9-2a-4f4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mhr-ha-sPi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="fGz-Kq-tcQ"/>
+                    <connections>
+                        <outlet property="responseLabel" destination="mYW-hg-Dhj" id="z6K-cc-enY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcT-ln-C2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -500,6 +515,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="ni5-aR-gUR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c2x-vX-qBj">
                                 <rect key="frame" x="113" y="447" width="166" height="58"/>
@@ -513,6 +531,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="peQ-V5-70z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z92-31-Fs1">
                                 <rect key="frame" x="116" y="247" width="159" height="58"/>
@@ -526,6 +547,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerTwoTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="WPo-wo-VW4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZ7-9N-E4i">
                                 <rect key="frame" x="116" y="152" width="159" height="58"/>
@@ -539,6 +563,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="7C2-8S-ufv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXi-8s-Tlw">
                                 <rect key="frame" x="46" y="594" width="301" height="45"/>
@@ -552,6 +579,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="yK7-4R-2Ic"/>
+                    <connections>
+                        <outlet property="responseLabel" destination="BXi-8s-Tlw" id="FxA-5S-APg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Axg-Lf-y78" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -607,6 +637,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="1qq-H0-pgE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJs-El-wpY">
                                 <rect key="frame" x="116" y="151" width="159" height="58"/>
@@ -620,6 +653,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="YZp-dB-KUk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4H-G1-hVs">
                                 <rect key="frame" x="113" y="456" width="166" height="58"/>
@@ -633,6 +669,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerFourTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="i4d-rP-Gwi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Icc-Jq-Gn2">
                                 <rect key="frame" x="116" y="247" width="159" height="58"/>
@@ -646,12 +685,18 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerTwoTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="kaa-c8-RgW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QcW-wc-uB3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="d0D-fh-XPa"/>
+                    <connections>
+                        <outlet property="responseLabel" destination="aFB-V7-2AD" id="bBr-wg-JBN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZM-Be-NtG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -707,6 +752,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerTwoTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="Hu2-iS-TBq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfv-uA-Z5g">
                                 <rect key="frame" x="116" y="159" width="159" height="58"/>
@@ -720,6 +768,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="N2x-5w-Z7W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Vz-1B-Dwx">
                                 <rect key="frame" x="113" y="465" width="166" height="58"/>
@@ -733,6 +784,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerFourTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="Z5E-YE-R1f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yo1-9P-Kkr">
                                 <rect key="frame" x="113" y="366" width="165" height="58"/>
@@ -746,12 +800,18 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="0Ui-x9-l87"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ax1-j0-TCe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="wV8-8t-Whv"/>
+                    <connections>
+                        <outlet property="responseLabel" destination="Ckx-C9-QUq" id="2EI-xZ-JFF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W84-wr-UA7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -799,6 +859,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="wrk-Cn-WPY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a9u-oB-XG0">
                                 <rect key="frame" x="113" y="377" width="165" height="58"/>
@@ -812,6 +875,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="JK8-RO-UAg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IBl-hc-d2y">
                                 <rect key="frame" x="113" y="475" width="166" height="58"/>
@@ -825,6 +891,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerFourTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="3RC-gH-5TU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B1p-yG-ibD">
                                 <rect key="frame" x="116" y="269" width="159" height="58"/>
@@ -838,12 +907,18 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="answerTwoTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="xUP-bY-Bxi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="txm-Og-dgf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="rix-6J-UI7"/>
+                    <connections>
+                        <outlet property="responseLabel" destination="HHV-Ad-2bR" id="jjY-Ii-S4e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pL2-jl-VmE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -877,7 +952,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="TNO-VJ-4fn"/>
-        <segue reference="hB1-gc-Smb"/>
+        <segue reference="x3K-cb-r12"/>
         <segue reference="frL-hl-dof"/>
         <segue reference="06V-Av-HIe"/>
         <segue reference="Nyk-Bn-Zos"/>
