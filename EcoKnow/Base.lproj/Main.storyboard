@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="tjL-6y-0wn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q5L-tn-rsh">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luu-88-uP7">
@@ -1182,6 +1182,16 @@
                                     <action selector="answerOnesTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="p7a-Ie-rXN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xX4-1y-0N4">
+                                <rect key="frame" x="328" y="759" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home!">
+                                    <color key="titleColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tjL-6y-0wn" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="EPw-i7-xK7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="txm-Og-dgf"/>
                         <color key="backgroundColor" red="0.89411764709999997" green="0.94117647059999998" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1210,58 +1220,10 @@
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boxes2" translatesAutoresizingMaskIntoConstraints="NO" id="FYE-3d-Kbb">
-                                <rect key="frame" x="0.0" y="113" width="390" height="656"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="citation" translatesAutoresizingMaskIntoConstraints="NO" id="FYE-3d-Kbb">
+                                <rect key="frame" x="0.0" y="89" width="400" height="680"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LfY-yS-FY6">
-                                <rect key="frame" x="151" y="139" width="89" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyG-uX-wZE">
-                                <rect key="frame" x="151" y="257" width="89" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rth-1U-J2c">
-                                <rect key="frame" x="151" y="371" width="89" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yag-1k-EGI">
-                                <rect key="frame" x="151" y="480" width="89" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9Z-E5-ryX">
-                                <rect key="frame" x="151" y="579" width="89" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBj-BM-hjS">
-                                <rect key="frame" x="151" y="682" width="89" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hSM-IF-UYM"/>
                         <color key="backgroundColor" red="0.89411764709999997" green="0.94117647059999998" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1270,21 +1232,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zm8-ke-FuG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5643" y="79"/>
+            <point key="canvasLocation" x="5641.538461538461" y="78.909952606635073"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="TNO-VJ-4fn"/>
-        <segue reference="hB1-gc-Smb"/>
-        <segue reference="gbo-PS-7pf"/>
+        <segue reference="x3K-cb-r12"/>
+        <segue reference="frL-hl-dof"/>
         <segue reference="06V-Av-HIe"/>
         <segue reference="Nyk-Bn-Zos"/>
+        <segue reference="EPw-i7-xK7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Boxes" width="386" height="642"/>
         <image name="Boxes2" width="363" height="686"/>
         <image name="Climate change button" width="374" height="112"/>
         <image name="Enviromental Racism page" width="544" height="732"/>
+        <image name="citation" width="397" height="758"/>
         <image name="citations button" width="369" height="107"/>
         <image name="climatchangepic" width="356" height="394"/>
         <image name="climate change paragraph" width="560" height="790"/>
