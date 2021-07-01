@@ -180,13 +180,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temporary Climate Change Page" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhE-bf-kqe">
-                                <rect key="frame" x="-51" y="92" width="493" height="81"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="climate change paragraph" translatesAutoresizingMaskIntoConstraints="NO" id="gKk-Vv-4T4">
+                                <rect key="frame" x="0.0" y="94" width="390" height="555"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRZ-hZ-km4">
+                                <rect key="frame" x="5" y="11" width="383" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="54"/>
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Earth and hands" translatesAutoresizingMaskIntoConstraints="NO" id="Zkw-xO-OPn">
+                                <rect key="frame" x="124" y="632" width="144" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="G6H-7m-nqe"/>
                         <color key="backgroundColor" red="0.89411764709999997" green="0.94117647059999998" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1087,7 +1095,9 @@
     <resources>
         <image name="Boxes2" width="363" height="686"/>
         <image name="Climate change button" width="374" height="112"/>
+        <image name="Earth and hands" width="356" height="394"/>
         <image name="citations button" width="369" height="107"/>
+        <image name="climate change paragraph" width="560" height="790"/>
         <image name="enviromental rascim button" width="374" height="112"/>
         <image name="lightbulb" width="258" height="259"/>
         <image name="logo" width="322" height="301"/>
