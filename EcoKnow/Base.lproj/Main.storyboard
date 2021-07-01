@@ -496,30 +496,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYW-hg-Dhj">
-                                <rect key="frame" x="46" y="694" width="301" height="45"/>
+                                <rect key="frame" x="12" y="694" width="369" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-Iz-hkd">
-                                <rect key="frame" x="85" y="190" width="223" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Use nonreusable water bottles">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="32" name="GillSans"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="answerOneTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="UQp-sK-nmN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9M-N7-drW">
                                 <rect key="frame" x="86" y="320" width="229" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -528,33 +510,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerTwoTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="T5p-Ar-mUo"/>
+                                    <action selector="answerTwoTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="CAC-r5-uwO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-yh-TCy">
-                                <rect key="frame" x="58" y="598" width="277" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-yh-TCy">
+                                <rect key="frame" x="72" y="581" width="246" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Throw lots of trash into the oceanhrow lots of trash into the  ocean">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="21" name="GillSans"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <state key="normal" title="Throw lots of trash ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerFourTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="SV9-2a-4f4"/>
+                                    <action selector="answerFourTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="Crp-vN-RbJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W6q-BL-U20">
-                                <rect key="frame" x="76" y="459" width="248" height="41"/>
+                                <rect key="frame" x="76" y="444" width="248" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Start a garden with unnative plants">
+                                        <fragment content="Start a garden with">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="31" name="GillSans"/>
@@ -564,7 +539,75 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="answerThreeTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="Sqn-WB-1GC"/>
+                                    <action selector="answerThreeTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="mtj-PF-efa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nrl-uo-O5F">
+                                <rect key="frame" x="72" y="477" width="248" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="unnative plants">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="Xy0-Sb-XZo"/>
+                                    <action selector="answerThreesTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="kZS-gp-RJi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-Iz-hkd">
+                                <rect key="frame" x="84" y="178" width="223" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Use nonreusable">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="32" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="4VY-li-vDt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XTJ-7c-iPh">
+                                <rect key="frame" x="84" y="209" width="223" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="water bottles">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="32" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="AdY-jC-dxN"/>
+                                    <action selector="answerOnesTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="As2-lm-zgw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyj-3I-pHX">
+                                <rect key="frame" x="107" y="610" width="177" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <state key="normal" title="into the ocean">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerFourTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="pIy-xU-paU"/>
+                                    <action selector="answerFoursTapped:" destination="FGb-xL-50n" eventType="touchUpInside" id="9ZA-vp-gH8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -635,7 +678,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerThreeTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="ni5-aR-gUR"/>
+                                    <action selector="answerThreeTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="yBN-Pz-3TJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z92-31-Fs1">
@@ -646,13 +689,13 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerTwoTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="WPo-wo-VW4"/>
+                                    <action selector="answerTwoTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="3QX-e0-6Xq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXi-8s-Tlw">
-                                <rect key="frame" x="45" y="705" width="301" height="45"/>
+                                <rect key="frame" x="8" y="705" width="382" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -671,15 +714,16 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="answerFourTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="1N2-oN-2w7"/>
                                     <action selector="answerThreeTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="peQ-V5-70z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZ7-9N-E4i">
-                                <rect key="frame" x="77" y="192" width="237" height="58"/>
+                                <rect key="frame" x="77" y="167" width="237" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Reusing old clothes as rags">
+                                        <fragment content="Reusing old">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="40" name="GillSans"/>
@@ -689,7 +733,26 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="answerOneTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="7C2-8S-ufv"/>
+                                    <action selector="answerOneTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="c1d-AB-wiz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y4h-DE-R2a">
+                                <rect key="frame" x="77" y="207" width="237" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="clothes as rags">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="qxQ-xK-Udh"/>
+                                    <action selector="answerOnesTapped:" destination="RS7-Rh-162" eventType="touchUpInside" id="eOW-0q-6cf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -745,19 +808,12 @@
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFB-V7-2AD">
-                                <rect key="frame" x="45" y="698" width="301" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="39"/>
-                                <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gxd-Gp-ThT">
-                                <rect key="frame" x="51" y="465" width="288" height="58"/>
+                                <rect key="frame" x="51" y="441" width="288" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="The Greenhouse Effect">
+                                        <fragment content="The Greenhouse ">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="40" name="GillSans"/>
@@ -767,7 +823,26 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="answerThreeTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="1qq-H0-pgE"/>
+                                    <action selector="answerThreeTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="Gao-7c-7QN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zaF-zZ-fpA">
+                                <rect key="frame" x="52" y="480" width="288" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Effect">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerThreeTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="88R-E5-DNk"/>
+                                    <action selector="answerThreesTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="TNG-yA-mRv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4H-G1-hVs">
@@ -778,15 +853,15 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerFourTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="i4d-rP-Gwi"/>
+                                    <action selector="answerFourTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="469-Oy-Wjq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Icc-Jq-Gn2">
-                                <rect key="frame" x="32" y="331" width="326" height="53"/>
+                                <rect key="frame" x="32" y="308" width="326" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="The Carbon Gasses Effect">
+                                        <fragment content="The Carbon Gasses ">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="35" name="GillSans"/>
@@ -796,7 +871,26 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="answerTwoTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="kaa-c8-RgW"/>
+                                    <action selector="answerTwoTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="T1u-YM-ajD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ZF-Gy-ysq">
+                                <rect key="frame" x="33" y="344" width="326" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Effect">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="35" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerTwoTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="uim-rO-cbB"/>
+                                    <action selector="answerTwosTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="h84-0v-8Dp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="world warmer and warmer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib6-bp-1mo">
@@ -807,11 +901,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJs-El-wpY">
-                                <rect key="frame" x="21" y="199" width="348" height="53"/>
+                                <rect key="frame" x="22" y="177" width="348" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="The Thermal Energy Effect">
+                                        <fragment content="The Thermal Energy">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="35" name="GillSans"/>
@@ -821,9 +915,35 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="answerOneTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="YZp-dB-KUk"/>
+                                    <action selector="answerOneTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="itP-iK-AID"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FB5-xy-B36">
+                                <rect key="frame" x="21" y="213" width="348" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Effect">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="35" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="UXo-bQ-dDp"/>
+                                    <action selector="answerOnesTapped:" destination="8fL-zv-mFB" eventType="touchUpInside" id="Yvb-2J-bNX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFB-V7-2AD">
+                                <rect key="frame" x="6" y="708" width="381" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QcW-wc-uB3"/>
                         <color key="backgroundColor" red="0.89411764709999997" green="0.94117647059999998" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -878,9 +998,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ckx-C9-QUq">
-                                <rect key="frame" x="45" y="705" width="301" height="45"/>
+                                <rect key="frame" x="15" y="705" width="375" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -892,7 +1012,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerTwoTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="Hu2-iS-TBq"/>
+                                    <action selector="answerTwoTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="2Zj-ou-3jO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Vz-1B-Dwx">
@@ -903,7 +1023,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerFourTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="Z5E-YE-R1f"/>
+                                    <action selector="answerFourTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="KfW-V0-Lp3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo1-9P-Kkr">
@@ -914,7 +1034,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerThreeTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="0Ui-x9-l87"/>
+                                    <action selector="answerThreeTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="Can-c1-WnH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfv-uA-Z5g">
@@ -925,7 +1045,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerOneTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="N2x-5w-Z7W"/>
+                                    <action selector="answerOneTapped:" destination="xb7-yf-A56" eventType="touchUpInside" id="ezt-O8-ewv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="affected by environmental racism?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Y5-rb-o8E">
@@ -972,18 +1092,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response/feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHV-Ad-2bR">
-                                <rect key="frame" x="44" y="706" width="301" height="45"/>
+                                <rect key="frame" x="0.0" y="706" width="390" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
                                 <color key="textColor" red="0.1058823529" green="0.26274509800000001" blue="0.1960784314" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYf-jt-hAa">
-                                <rect key="frame" x="51" y="202" width="287" height="58"/>
+                                <rect key="frame" x="51" y="187" width="287" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Methane Gas Pipelines">
+                                        <fragment content="Methane Gas ">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="40" name="GillSans"/>
@@ -993,7 +1113,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="answerOneTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="wrk-Cn-WPY"/>
+                                    <action selector="answerOneTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="oNj-K3-J0V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9u-oB-XG0">
@@ -1004,7 +1124,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerThreeTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="JK8-RO-UAg"/>
+                                    <action selector="answerThreeTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="zuI-Il-0E5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBl-hc-d2y">
@@ -1015,7 +1135,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerFourTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="3RC-gH-5TU"/>
+                                    <action selector="answerFourTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="Ue2-gI-y7f"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's one thing that's not being" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biJ-RR-f4X">
@@ -1040,7 +1160,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerTwoTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="xUP-bY-Bxi"/>
+                                    <action selector="answerTwoTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="fg9-YR-iv8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaE-rN-BKm">
+                                <rect key="frame" x="58" y="223" width="287" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Pipelines">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="answerOneTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="DOr-5E-8q1"/>
+                                    <action selector="answerOnesTapped:" destination="cSO-nW-GrD" eventType="touchUpInside" id="p7a-Ie-rXN"/>
                                 </connections>
                             </button>
                         </subviews>
