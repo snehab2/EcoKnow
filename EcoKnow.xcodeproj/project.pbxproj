@@ -18,6 +18,7 @@
 		A83A9F21268BADA8005995ED /* EcoKnow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A83A9F1F268BADA8005995ED /* EcoKnow.xcdatamodeld */; };
 		A83A9F23268BADA8005995ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83A9F22268BADA8005995ED /* Assets.xcassets */; };
 		A83A9F26268BADA8005995ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83A9F24268BADA8005995ED /* LaunchScreen.storyboard */; };
+		A840FDC0268D4D620023A757 /* moreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A840FDBF268D4D620023A757 /* moreInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A83A9F22268BADA8005995ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83A9F25268BADA8005995ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83A9F27268BADA8005995ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A840FDBF268D4D620023A757 /* moreInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				43B90482268CFA3D00C4AD54 /* ThirdViewController.swift */,
 				43B90484268CFA5200C4AD54 /* FourthViewController.swift */,
 				43B90486268CFA6100C4AD54 /* FifthViewController.swift */,
+				A840FDBF268D4D620023A757 /* moreInformationViewController.swift */,
 			);
 			path = EcoKnow;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				43B90487268CFA6100C4AD54 /* FifthViewController.swift in Sources */,
 				43B90481268CFA2600C4AD54 /* SecondViewController.swift in Sources */,
 				43B90483268CFA3D00C4AD54 /* ThirdViewController.swift in Sources */,
+				A840FDC0268D4D620023A757 /* moreInformationViewController.swift in Sources */,
 				A83A9F19268BADA8005995ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

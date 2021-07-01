@@ -118,17 +118,6 @@
                                     <segue destination="FUI-nJ-bZC" kind="show" id="MtM-yR-VZX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-jg-5Rb">
-                                <rect key="frame" x="123" y="387" width="251" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Ways to help from home">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="8Jj-11-Srr" kind="show" id="vOP-ES-z1A"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcX-GH-7OS">
                                 <rect key="frame" x="123" y="591" width="251" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -160,6 +149,17 @@
                                 </state>
                                 <connections>
                                     <segue destination="bNY-by-GdL" kind="show" id="SsN-LV-pF8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-jg-5Rb">
+                                <rect key="frame" x="121" y="387" width="251" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Ways to help from home">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Jj-11-Srr" kind="show" id="vOP-ES-z1A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -251,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="3073.8461538461538" y="78.909952606635073"/>
         </scene>
-        <!--View Controller-->
+        <!--More Information View Controller-->
         <scene sceneID="9l4-gw-TEz">
             <objects>
-                <viewController id="hA1-bU-xKK" sceneMemberID="viewController">
+                <viewController id="hA1-bU-xKK" customClass="moreInformationViewController" customModule="EcoKnow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gfa-t2-IGc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,44 +264,59 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggl-z6-EXN">
-                                <rect key="frame" x="151" y="126" width="89" height="49"/>
+                                <rect key="frame" x="41" y="132" width="308" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="The Causes of Climate Change">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="article1Tapped:" destination="hA1-bU-xKK" eventType="touchUpInside" id="WeH-Ay-04O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDH-hr-oOB">
-                                <rect key="frame" x="151" y="246" width="89" height="49"/>
+                                <rect key="frame" x="107" y="240" width="177" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Clean Energy">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="article2Tapped:" destination="hA1-bU-xKK" eventType="touchUpInside" id="NeV-lR-pJb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npE-hB-j9q">
-                                <rect key="frame" x="151" y="347" width="89" height="49"/>
+                                <rect key="frame" x="41" y="348" width="308" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Fast Fashion">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="article3Tapped:" destination="hA1-bU-xKK" eventType="touchUpInside" id="CXH-0U-Q22"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6C-ti-EDl">
-                                <rect key="frame" x="151" y="456" width="89" height="49"/>
+                                <rect key="frame" x="47" y="466" width="297" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="What is Environmental Racism?">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="article4Tapped:" destination="hA1-bU-xKK" eventType="touchUpInside" id="Cgo-bD-jJ7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fr-D7-wkc">
-                                <rect key="frame" x="151" y="572" width="89" height="49"/>
+                                <rect key="frame" x="77" y="569" width="236" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Climate Refugees">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="article5Tapped:" destination="hA1-bU-xKK" eventType="touchUpInside" id="VNf-EP-wNj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRq-tN-R61">
                                 <rect key="frame" x="-51" y="20" width="493" height="81"/>
@@ -311,12 +326,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJh-iM-J0H">
-                                <rect key="frame" x="151" y="673" width="89" height="49"/>
+                                <rect key="frame" x="48" y="681" width="301" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Project Drawdown: Solutions ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="article6Tapped:" destination="hA1-bU-xKK" eventType="touchUpInside" id="Em6-Tv-zmL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gg0-2g-h23"/>
@@ -326,7 +344,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bz9-ZQ-BGK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3874" y="79"/>
+            <point key="canvasLocation" x="3873.8461538461538" y="78.909952606635073"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kjC-l0-ZZt">
@@ -1060,9 +1078,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TNO-VJ-4fn"/>
-        <segue reference="hB1-gc-Smb"/>
-        <segue reference="frL-hl-dof"/>
+        <segue reference="kZv-Ef-TBv"/>
+        <segue reference="x3K-cb-r12"/>
+        <segue reference="gbo-PS-7pf"/>
         <segue reference="mt1-SQ-Cd8"/>
         <segue reference="fgB-U7-8Za"/>
     </inferredMetricsTieBreakers>
